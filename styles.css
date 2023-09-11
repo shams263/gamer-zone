@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Work+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav css  */
+.nav-heading {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+
+}
+
+.nav-heading h2 {
+    color: #4e4d54;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.game {
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-heading img {
+    width: 70px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav-details {
+    padding: 20px;
+}
+.nav-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-details a {
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav-details .follow-section {
+    padding: 5px 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    gap: 10px;
+}
+
+/* nav css end  */
+/* header start  */
+
+header {
+    background-image: url('./images/Group\ 14.png');
+    background-repeat: none;
+}
+
+.header-class {
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    
+}
+
+.header-details {
+    width: 50%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+.header-details h2 {
+    color: #3c3943;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.header-details h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-details-inside-info {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+
+
+
+
+.button-div1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.btn1 {
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #fc0082 13.13%, #FF42A5 87.94%));
+    padding: 10px 15px;
+    border: none;
+    color: rgb(253, 251, 249);
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.btn2 {
+    border-radius: 48px;
+    background: #03aff9;
+    padding: 10px 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.button-div {
+    margin-top: 20px;
+}
+
+/* right side banner */
+.header-image {
+    width: 50%;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+/* main body  */
+main {
+    margin-top: 50px;
+}
+
+.main-body-class {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.play-content {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.online-game-details {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.online-game-details h2 {
+    color: #4f4e55;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+
+.online-game-details p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.game-image {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 10px auto;
+    padding: 0 50px;
+}
+
+.image-class {
+    width: 250px;
+    height: 270px
+}
+
+.card p {
+    color: #46424f;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px;
+
+}
+
+/* play details part  */
+
+.play-details {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 60px;
+
+}
+
+.play-image {
+    width: 50%;
+    background-image: url('./images/Rectangle\ 55.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+.play-details h2 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.play-details p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.play-instant {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-image img {
+    width: 220.5px;
+    height: 240.083px;
+    border-radius: 8px;
+    position: relative;
+    top: 340px;
+    right: 85px;
+}
+
+/* button section  */
+.button-section {
+    width: 75%;
+    margin: 150px auto 0 auto;
+}
+
+.button-div {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    color: #000000;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.btn-img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.btn:hover {
+    border: 1px solid rgb(243, 8, 82);
+    color: rgb(243, 8, 82);
+}
+
+
+
+/* footer section  */
+
+footer {
+    margin-top: 50px;
+    background: #0B0223;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 240px;
+}
+
+#footer-head {
+    margin: 0 420px;
+
+}
+
+.game2 {
+    color: #fcfafa;
+}
+
+.our-details {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.our-details{
+    font-size: 15px;
+}
+
+.terms {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.end-tag {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.icon-div {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.icon-div i {
+    padding: 0 20px;
+    font-size: 30px;
+}
